@@ -25,6 +25,11 @@ mkdir data_out
 $ bash train.sh
 ```
 
+### Checkpoints
+The checkpoints of in-domain detector, cross-domain detector, and cross-genre detector can be found in <https://huggingface.co/CarlanLark/AIGT-detector-in-domain>. (These detectors are trained on the same training set and evaluated on different test sets.)
+
+The checkpoint of mixed-source detector can be found in <https://huggingface.co/CarlanLark/AIGT-detector-mixed-source>.
+
 ### Robustness Evaluation
 ```bash
 $ bash attack.sh
